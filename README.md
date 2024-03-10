@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 audio {
-  width: 38%; /* Adjust as necessary to fit your layout */
+  width: 20%; /* Adjust as necessary to fit your layout */
 }
 </style>
 </head>
@@ -58,12 +58,12 @@ audio {
       <source src="VCTK/hifiganv1/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
     
-    <!-- Add more audio elements as above, one for each sample -->
+   
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
+  
 </div>
 
-<!-- Repeat the .model-container div for each model you want to include -->
+
 <div class="model-container">
   <h3>QGAN V1</h3>
   <div class="audio-line">
@@ -83,9 +83,9 @@ audio {
       <source src="VCTK/hifiQganv1/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
     
-    <!-- Add more audio elements as above, one for each sample -->
+  
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
+ 
 </div>
 
 <div class="model-container">
@@ -107,9 +107,9 @@ audio {
       <source src="VCTK/hifiganv2/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
     
-    <!-- Add more audio elements as above, one for each sample -->
+   
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
+ 
 </div>
 
 <div class="model-container">
@@ -131,9 +131,9 @@ audio {
       <source src="VCTK/hifiQganv2/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
     
-    <!-- Add more audio elements as above, one for each sample -->
+
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
+ 
 </div>
 
 <div class="model-container">
@@ -179,11 +179,9 @@ audio {
     <audio controls>
       <source src="VCTK/hifiQganv3/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
-    
-    <!-- Add more audio elements as above, one for each sample -->
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
 </div>
+
 
 <h2>OpenSLR Audio Samples</h2>
 
@@ -204,11 +202,8 @@ audio {
     </audio>
     <audio controls>
       <source src="Hindi/ground_truth/5671_088.wav" type="audio/mpeg">
-    </audio>
-    
-    <!-- Add more audio elements as above, one for each sample -->
+    </audio>    
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
 </div>
 
 
@@ -219,21 +214,20 @@ audio {
       <source src="Hindi/hifiQganv1/0215_098_generated.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="Hindi/hifiQganv1/0360_003.wav" type="audio/mpeg">
+      <source src="Hindi/hifiQganv1/0360_003_generated.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="Hindi/hifiQganv1/2087_089.wav" type="audio/mpeg">
+      <source src="Hindi/hifiQganv1/2087_089_generated.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="Hindi/hifiQganv1/5152_096.wav" type="audio/mpeg">
+      <source src="Hindi/hifiQganv1/5152_096_generated.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="Hindi/hifiQganv1/5671_088.wav" type="audio/mpeg">
+      <source src="Hindi/hifiQganv1/5671_088_generated.wav" type="audio/mpeg">
     </audio>
     
-    <!-- Add more audio elements as above, one for each sample -->
   </div>
-  <!-- Repeat the .audio-line div for each line of samples for this model -->
+  
 </div>
 
 </body>
