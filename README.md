@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -11,7 +10,7 @@
   margin-bottom: 10px;
 }
 audio {
-  width: 18%; /* Adjust as necessary to fit your layout */
+  width: 38%; /* Adjust as necessary to fit your layout */
 }
 </style>
 </head>
@@ -186,7 +185,56 @@ audio {
   <!-- Repeat the .audio-line div for each line of samples for this model -->
 </div>
 
+<h2>OpenSLR Audio Samples</h2>
 
+<div class="model-container">
+  <h3>Ground Truth </h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="Hindi/ground_truth/0215_098.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/ground_truth/0360_003.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/ground_truth/2087_089.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/ground_truth/5152_096.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/ground_truth/5671_088.wav" type="audio/mpeg">
+    </audio>
+    
+    <!-- Add more audio elements as above, one for each sample -->
+  </div>
+  <!-- Repeat the .audio-line div for each line of samples for this model -->
+</div>
+
+
+<div class="model-container">
+  <h3>Hindi Vocoder V1 </h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="Hindi/hifiQganv1/0215_098_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/hifiQganv1/0360_003.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/hifiQganv1/2087_089.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/hifiQganv1/5152_096.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="Hindi/hifiQganv1/5671_088.wav" type="audio/mpeg">
+    </audio>
+    
+    <!-- Add more audio elements as above, one for each sample -->
+  </div>
+  <!-- Repeat the .audio-line div for each line of samples for this model -->
+</div>
 
 </body>
 </html>
