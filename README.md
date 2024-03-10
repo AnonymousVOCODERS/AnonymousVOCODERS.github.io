@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 audio {
-  width: 20%; /* Adjust as necessary to fit your layout */
+  width: 28%;
 }
 </style>
 </head>
