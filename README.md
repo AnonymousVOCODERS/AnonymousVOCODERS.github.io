@@ -252,7 +252,7 @@ audio {
 
 <div class="plot-container">
     <h3>Log Scale Loss Plot</h3>
-    <iframe src="plots/hifiganv1/plot1.html" style="width:600px; height:400px;"></iframe>
+    <iframe src="plots/hifiganv1/plot2.html" style="width:600px; height:400px;"></iframe>
 </div>
 
 <h2>QGAN V1</h2>
