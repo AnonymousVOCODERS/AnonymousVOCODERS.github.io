@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Research Audio Samples</title>
+    <title>VOCODER AUDIO SAMPLES</title>
 </head>
 <body>
-    <h1>My Research Audio Samples</h1>
+    <h1>LJSPEECH dataset samples</h1>
     
     <!-- Audio player for Sample 1 -->
-    <h2>Sample 1</h2>
+    <h3>Sample 1</h3>
     <audio controls>
         <source src="audios/sample1.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
