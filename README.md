@@ -9,7 +9,7 @@
     <!-- Audio player for Sample 1 -->
     <h3>Sample 1</h3>
     <audio controls>
-        <source src="audios/sample1.mp3" type="audio/mpeg">
+        <source src="VCTK/ground_truth/LJ001-0028.wav" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
