@@ -17,7 +17,7 @@ audio {
 </head>
 <body>
 
-<h2>My Research Audio Samples</h2>
+<h2>LJSpeech Audio Samples</h2>
 
 <div class="model-container">
   <h3>Ground Truths</h3>
@@ -26,32 +26,47 @@ audio {
       <source src="VCTK/ground_truth/LJ001-0028.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="path/to/audio2.mp3" type="audio/mpeg">
+      <source src="VCTK/ground_truth/LJ002-0149.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="path/to/audio3.mp3" type="audio/mpeg">
+      <source src="VCTK/ground_truth/LJ003-0042.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="path/to/audio4.mp3" type="audio/mpeg">
+      <source src="VCTK/ground_truth/LJ004-0169.wav" type="audio/mpeg">
     </audio>
     <audio controls>
-      <source src="path/to/audio5.mp3" type="audio/mpeg">
+      <source src="VCTK/ground_truth/LJ005-0101.wav" type="audio/mpeg">
     </audio>
   </div>
 </div>
 
 <div class="model-container">
-  <h3>Model 1</h3>
+  <h3>HiFiGAN V1</h3>
   <div class="audio-line">
     <audio controls>
-      <source src="path/to/model1_audio1.mp3" type="audio/mpeg">
+      <source src="VCTK/hifiganv1/LJ001-0028_generated.wav" type="audio/mpeg">
     </audio>
+    <audio controls>
+      <source src="VCTK/hifiganv1/LJ002-0149_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiganv1/LJ003-0042_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiganv1/LJ004-0169_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiganv1/LJ005-0101_generated.wav" type="audio/mpeg">
+    </audio>
+    
     <!-- Add more audio elements as above, one for each sample -->
   </div>
   <!-- Repeat the .audio-line div for each line of samples for this model -->
 </div>
 
 <!-- Repeat the .model-container div for each model you want to include -->
+
+
 
 </body>
 </html>
