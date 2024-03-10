@@ -65,6 +65,29 @@ audio {
 </div>
 
 <!-- Repeat the .model-container div for each model you want to include -->
+<div class="model-container">
+  <h3>QGAN V1</h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="VCTK/hifiQganv1/LJ001-0028_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv1/LJ002-0149_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv1/LJ003-0042_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv1/LJ004-0169_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv1/LJ005-0101_generated.wav" type="audio/mpeg">
+    </audio>
+    
+    <!-- Add more audio elements as above, one for each sample -->
+  </div>
+  <!-- Repeat the .audio-line div for each line of samples for this model -->
+</div>
 
 
 
