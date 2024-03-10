@@ -1,28 +1,58 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>VOCODER AUDIO SAMPLES</title>
+<style>
+.model-container {
+  margin-bottom: 20px;
+}
+.audio-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+audio {
+  width: 18%; /* Adjust as necessary to fit your layout */
+}
+</style>
 </head>
 <body>
-    <h1>LJSPEECH dataset samples</h1>
-    
-    <!-- Audio player for Sample 1 -->
-    <h3>Sample 1</h3>
-    <audio controls>
-        <source src="VCTK/ground_truth/LJ001-0028.wav" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
 
-    <!-- Repeat the block below for each additional audio file, changing the `src` attribute to point to your audio file's path -->
-    
-    <!-- Audio player for Sample 2 -->
-    <h2>Sample 2</h2>
-    <audio controls>
-        <source src="audios/sample2.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+<h2>My Research Audio Samples</h2>
 
-    <!-- Add more audio samples as needed -->
+<div class="model-container">
+  <h3>Ground Truths</h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="VCTK/ground_truth/LJ001-0028.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="path/to/audio2.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="path/to/audio3.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="path/to/audio4.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="path/to/audio5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<div class="model-container">
+  <h3>Model 1</h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="path/to/model1_audio1.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Add more audio elements as above, one for each sample -->
+  </div>
+  <!-- Repeat the .audio-line div for each line of samples for this model -->
+</div>
+
+<!-- Repeat the .model-container div for each model you want to include -->
 
 </body>
 </html>
+
