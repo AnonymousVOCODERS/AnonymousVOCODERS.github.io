@@ -1,7 +1,14 @@
 <html>
 <head>
+
 <style>
-.model-container {
+
+  .plot-container {
+    margin-bottom: 20px;
+    text-align: center; /* Center the iframe plots */
+}
+  
+  .model-container {
   margin-bottom: 20px;
 }
 .audio-line {
@@ -229,6 +236,38 @@ audio {
   </div>
   
 </div>
+
+
+<h2>Loss Landscape Visualisation</h2>
+
+
+
+
+<h2>HifiGAN</h2>
+
+<div class="plot-container">
+    <h3>Loss Plot</h3>
+    <iframe src="plots/hifiganv1/plot1.html" style="width:600px; height:400px;"></iframe>
+</div>
+
+<div class="plot-container">
+    <h3>Log Scale Loss Plot</h3>
+    <iframe src="plots/hifiganv1/plot1.html" style="width:600px; height:400px;"></iframe>
+</div>
+
+<h2>QGAN</h2>
+
+<div class="plot-container">
+    <h3>Loss Plot</h3>
+    <iframe src="plots/QganV1/Qplot1.html" style="width:600px; height:400px;"></iframe>
+</div>
+
+<div class="plot-container">
+    <h3>Log Scale Loss Plot</h3>
+    <iframe src="plots/QganV1/Qplot2.html" style="width:600px; height:400px;"></iframe>
+</div>
+
+
 
 </body>
 </html>
