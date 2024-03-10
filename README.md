@@ -243,7 +243,7 @@ audio {
 
 
 
-<h2>HifiGAN</h2>
+<h2>HifiGAN V1</h2>
 
 <div class="plot-container">
     <h3>Loss Plot</h3>
@@ -255,7 +255,7 @@ audio {
     <iframe src="plots/hifiganv1/plot1.html" style="width:600px; height:400px;"></iframe>
 </div>
 
-<h2>QGAN</h2>
+<h2>QGAN V1</h2>
 
 <div class="plot-container">
     <h3>Loss Plot</h3>
