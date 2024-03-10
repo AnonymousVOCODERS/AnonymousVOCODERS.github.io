@@ -114,7 +114,7 @@ audio {
 </div>
 
 <div class="model-container">
-  <h3>HiFiGAN V2</h3>
+  <h3>QGAN V2</h3>
   <div class="audio-line">
     <audio controls>
       <source src="VCTK/hifiQganv2/LJ001-0028_generated.wav" type="audio/mpeg">
@@ -154,6 +154,31 @@ audio {
     </audio>
     <audio controls>
       <source src="VCTK/hifiganv3/LJ005-0101_generated.wav" type="audio/mpeg">
+    </audio>
+    
+    <!-- Add more audio elements as above, one for each sample -->
+  </div>
+  <!-- Repeat the .audio-line div for each line of samples for this model -->
+</div>
+
+
+<div class="model-container">
+  <h3>QGAN V3</h3>
+  <div class="audio-line">
+    <audio controls>
+      <source src="VCTK/hifiQganv3/LJ001-0028_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv3/LJ002-0149_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv3/LJ003-0042_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv3/LJ004-0169_generated.wav" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="VCTK/hifiQganv3/LJ005-0101_generated.wav" type="audio/mpeg">
     </audio>
     
     <!-- Add more audio elements as above, one for each sample -->
