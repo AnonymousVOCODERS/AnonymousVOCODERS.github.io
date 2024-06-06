@@ -267,7 +267,12 @@ audio {
     <iframe src="plots/QganV1/Qplot2.html" style="width:600px; height:400px;"></iframe>
 </div>
 
+<h2>Codebase</h2>
 
+<div class="codebase-link">
+  <p>To explore the codebase used for these experiments, visit the following repository:</p>
+  <p><a href="https://github.com/Cross-Caps/QVocoder" target="_blank"> Codebase Repository</a></p>
+</div>
 
 </body>
 </html>
